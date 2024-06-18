@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.logodiv {
+  background-color: #f4a226;
+  text-align: center;
+  padding: 1rem;
+}
+.logodiv h1 {
+  font-size: 6rem;
+  font-family: "Monoton", sans-serif;
+}
+.formList {
+  display: flex;
+  background-color: #e5771f;
+  text-align: center;
+  padding: 2rem;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 700;
+}
+.frombtn {
+  background-color: aquamarine;
+}
+input,
+select,
+button {
+  background-color: bisque;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 3.2rem;
+  color: #5a3e2b;
+}
+input:focus {
+  outline: none;
+}
+
+.formList p {
+  font-size: 2rem;
+}
+.listitems {
+  height: 350px;
+  width: 100%;
+  background-color: brown;
+  color: #ffff;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.9rem;
+}
+.listitems ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  color: antiquewhite;
+  gap: 7rem;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.inlinediv {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 2rem;
+}
+.footer p {
+  font-size: 2rem;
+  font-style: italic;
+}
+.crossbtn {
+  background-color: transparent;
+  border: none;
+}
+.actions {
+  position: absolute;
+  bottom: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
